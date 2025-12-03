@@ -26,5 +26,3 @@ def main():
 
     print("\n=== FIM ===")
 
-if __name__ == "__main__":
-    main()
