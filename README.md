@@ -4,6 +4,7 @@ jogo.py:
     Jogo (classe base)
     
         JogoDigital
+        
         JogoFisico
 
 factory.py
@@ -11,21 +12,28 @@ factory.py
 
 pagamento.py
     Implementa o padrão Strategy com:
+    
         PagamentoStrategy (abstrata)
-            PagamentoPix
-            PagamentoCartao
+        
+                PagamentoPix
+                
+                PagamentoCartao
 
 usuario.py
+
     Classe Usuario, que possui uma biblioteca de jogos.
 
 carrinho.py
+
     Classe Carrinho, que gerencia itens, calcula total e finaliza a compra.
 
 main.py
+
     Arquivo principal que demonstra o funcionamento do sistema.
 
 
 Funcionalidades:
+
     Criar jogos digitais e físicos via Factory
     
     Adicionar itens ao carrinho
